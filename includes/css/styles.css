@@ -1,0 +1,333 @@
+
+.alert{
+   display: none}
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+body{
+   background-image: url(../../images/grey.jpg); 
+   background-size: 100% 2000px;
+   background-repeat: no-repeat;
+   
+}
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   #searchInput,#searchInput2,#searchInput3{
+      width:250px; 
+   }
+   
+   .navbar{
+      background-color:#080808;
+
+   }
+.navbar li{
+   padding-right: 30px;
+   align-items: center;
+}
+.navopts{
+   color: white;
+}
+   a.navbar-brand{
+      padding: 0px;
+   }
+
+   a.navbar-brand img{
+      margin-top: 4px;
+   }
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+#myCarousel .item{
+   height: 350px;
+}
+
+#slide1{
+   background:url('../../images/kerala1.jpg') top center no-repeat; 
+   background-size: 100% 350px;
+}
+#slide2{
+   background:url('../../images/kerala2.jpg')top center no-repeat; 
+   background-size: 100% 350px;
+}
+#slide3{
+   background:url('../../images/kerala3.jpg')top center no-repeat; 
+   background-size: 100% 350px;
+}
+
+
+#lastCarousel .item{
+   height:300px;
+
+}
+
+#lslide1{
+   background:url('../../images/kathakali.jpg') top center no-repeat; 
+   background-size: 100% 300px;
+}
+
+#lslide2{
+background:url('../../images/theyyam.jpg')top center no-repeat; 
+   background-size: 100% 300px;
+}
+#lslide3{
+background:url('../../images/margamkali.jpg')top center no-repeat; 
+   background-size: 100% 350px;
+}
+#lslide4{
+background:url('../../images/duffmuttu.jpg')top center no-repeat; 
+   background-size: 100% 350px;
+}
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+article {
+   height: 300px;
+   overflow: hidden;
+}
+
+.col-sm-6 .panel{
+   height: 250px;
+   overflow-y:scroll;
+
+}
+
+form .form-control{
+   float: left;
+   margin-right:10px;
+}
+
+img.thumbnail.pull-left{
+   height: 80px;
+   width: 80px;
+   margin-right: 10px;
+}
+div.panel{
+   margin-bottom: 0px;
+}
+
+#tourismpanel{
+   background-image: url(../../images/grey.jpg);
+   align-content: center;
+}
+
+div.panel-heading{
+   background-color: #080808;
+   height: 50px;
+}
+h3.panel-title{
+   float: left;
+}
+div.panel-heading form{
+   float: right;
+}
+
+div.panel-heading h3{
+color: white;
+font-family: AMATIC SC;
+font-size: 25px;
+}
+
+div#featuresHeading.row{
+   background-color:#080808; 
+   margin-right: 0px;
+   margin-left: 0px;
+}
+div.col-6 h2{
+color: white;
+font-family: AMATIC SC;
+font-size: 30px;
+}
+
+div.tabbable-header{
+   height: 50px;
+   width: 100%;
+   background-color:#080808; 
+}
+div.tabbable-header h2{
+   color: white;
+font-family: AMATIC SC;
+font-size: 25px;
+padding-top: 15px;
+padding-left: 15px;
+}
+
+#tab1 ul a{
+   font-family:Philosopher; 
+   font-size: 20px;
+   text-decoration: none;
+   color: #29292F;
+}
+
+#tab1 ul a:hover{
+   font-size: 25px;
+   text-decoration: underline;
+   color: red;
+}
+
+#tab2 ul a{
+   font-family:Philosopher; 
+   font-size: 20px;
+   text-decoration: none;
+   color: #29292F;
+}
+
+#tab2 ul a:hover{
+   font-size: 25px;
+   text-decoration: underline;
+   color: red;
+}
+ul.nav.nav-tabs a{
+font-size: 20px;
+   text-decoration: none;
+   color: black;
+}
+
+div#features.row{
+
+   margin-top: 20px;
+}
+div#lastCarousel.carousel.slide{
+   margin-top: 20px;
+}
+footer{
+   height: 150px;
+   background-image: url('../../images/grass.jpg');
+   background-size: 100% 150px;
+}
+
+footer h2{
+   font-family:AMATIC SC;
+   font-size: 30px;
+   color: white;
+   margin-bottom: 0px;
+   text-decoration: none;
+}
+ .footlogo img.fb{
+   margin-left: 100px;
+   height: 60px;
+   width: 60px;
+ }
+
+ .footlogo img.twitter{
+   padding-left: 20px;
+   height:40px;
+   width:60px;
+ }
+ .footlogo img.whatsapp{
+   padding-left: 20px;
+   height: 40px;
+   width: 60px;
+ }
+
+ p.lead{
+   font-family: Sniglet;
+   color:white;
+ }
+
+ div.page-header{
+   margin-top: 0px;
+   margin-bottom: 0px;
+   margin-left: 0px;
+   background-color: #080808;
+   
+ }
+ .dropdown a{
+   font-family: Philosopher;
+   font-size: large;
+ }
+
+ div.well{
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-top: 0px;
+ }
+
+.pageheader h1{
+   margin-top: 0px;
+}
+div.well{
+   background-image: url('../../images/grey.jpg');
+}
+.headwraper{
+   height: 80px;
+   background-color:#080808;
+   width: 100%;
+
+}
+.headwraper h1{
+   margin-top: 0px;
+   margin-bottom: 0px;
+   padding-top: 15px;
+   font-family: AMATIC SC;
+   color: white;
+   padding-left: 10px;
+}
+
+#tourismpanel a{
+   font-family: Philosopher;
+   color: #080808;font-size: 15px;
+
+   color: black;
+}
+#tourismpanel a:hover{
+   font-family: Philosopher;
+   font-size: 20px;
+   color: red;
+}
+#events{
+   background-image: url(../../images/grey.jpg);
+}
+
+.list-group a{
+   font-family: Philosopher;
+   color: #080808;
+}
+
+.db{
+   color: #0B1174;
+}
+
+#lslide1 h1, #lslide2 h1{
+  font-family:AMATIC SC;
+color: white;
+font-style: bold;
+} 
+
+ #lslide3 h1, #lslide4 h1{
+
+font-family:AMATIC SC;
+color: black;
+font-style: bold;
+}
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+}

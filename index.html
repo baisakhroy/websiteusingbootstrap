@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title>Bootstrap Kerala Website</title>
+		<meta name="description" content="">
+		
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		<!--imported fonts-->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic SC">
+          <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css?family=Sniglet" rel="stylesheet">
+		
+		<!-- Custom CSS -->
+		<link href="includes/css/styles.css" rel="stylesheet">
+		<link href="includs/css/minifiedstyle.css" rel="stylesheet">
+		
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+		<script src="includes/js/script.js"></script>
+		
+	</head>
+	<body>
+
+	<!-- header carousal begins...-->
+	
+	<div class="carousel slide" id="myCarousel">
+
+	<!-- Indicators -->
+	<ol class="carousel-indicators">
+		<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+		<li data-slide-to="1" data-target="#myCarousel"></li>
+		<li data-slide-to="2" data-target="#myCarousel"></li>
+	</ol>
+
+	<!-- Wrapper for slides -->
+	<div class="carousel-inner">
+		<div class="item active" id="slide1">
+			<div class="carousel-caption">
+				<h4>Kerala! God's Own Country</h4>
+				<p>Natural Backwaters </p>
+
+			</div><!-- end carousel-caption-->
+		</div><!-- end item -->
+		
+		<div class="item" id="slide2">
+			<div class="carousel-caption">
+				<h4>Kerala! God's Own Country</h4>
+				<p> The breeze from the hills where the lawns are green</p>
+			</div><!-- end carousel-caption-->
+		</div><!-- end item -->
+		
+		<div class="item" id="slide3">
+			<div class="carousel-caption">
+				<h4>Kerala! God's Own Country</h4>
+				<p>Into the green, into the forest; where we all came from!</p>
+			</div><!-- end carousel-caption-->
+		</div><!-- end item -->
+	</div><!-- carousel-inner -->
+	
+	<!-- Controls -->
+	<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+	<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+
+</div><!-- end myCarousel -->  
+	<!-- end of header carousal-->
+
+	<!-- let's get started with our navigation bar-->
+
+	<div class="navbar navbar-fixed-top">
+	<div class="container">
+		
+		<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+		<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span> 
+			<span class="icon-bar"></span>
+		</button>
+	
+		<a class="navbar-brand" href="/"><img src="images/logotrial.png" alt="Your Logo" style="height: 40px; width: 100px;"></a>
+		
+		<div class="nav-collapse collapse navbar-responsive-collapse">
+			<ul class="nav navbar-nav">
+				<li class="active">
+					<a href="#" style="font-family: Philosopher; font-size: large; color: black;">Home</a>
+				</li>
+				
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle navopts" data-toggle="dropdown" style="color: white;">About<strong class="caret"> </strong></a>
+ 					<ul class="dropdown-menu">
+						<li><a href="#">History</a></li>
+						
+						<li><a href="#">Traditions</a></li>
+						
+						<li><a href="#">Major Events</a></li>
+						
+						<li class="divider"></li>
+						
+						<li class="dropdown-header">More Services</li>
+						
+						<li><a href="#">Tourism Packages</a></li>
+						
+						<li><a href="#">Social Media </a></li>
+					</ul><!-- end dropdown-menu -->
+				</li>
+
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle navopts" data-toggle="dropdown" style="color: white;">Destinations<strong class="caret"></strong></a>
+ 					<ul class="dropdown-menu">
+						<li><a href="#">Backwaters</a></li>
+
+						<li><a href="#">Ayurveda Centers</a></li>
+						
+						<li><a href="#">Hill Stations</a></li>
+						
+						<li><a href="#">Museums and Palaces</a></li>
+						
+					</ul><!-- end dropdown-menu -->
+				</li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle navopts" data-toggle="dropdown" style="color: white;">Cuisines<strong class="caret"></strong></a>
+ 					<ul class="dropdown-menu">
+						<li><a href="#">Fish Cuisines</a></li>
+						
+						<li><a href="#">Veggies and Herbies</a></li>
+						
+						<li><a href="#">Oh! The NON-VEG!!</a></li>
+						
+					</ul><!-- end dropdown-menu -->
+				</li>
+
+			</ul>
+			
+			<form class="navbar-form pull-left" name="myformone" method="post" onsubmit="return validateformone()">
+				<input type="text" class="form-control" name="nameone" placeholder="Search this site..." id="searchInput">
+				<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+			</form><!-- end navbar-form -->
+			
+			<ul class="nav navbar-nav pull-right">
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle navopts" data-toggle="dropdown" style="color: white;"><span class="glyphicon glyphicon-user"></span> My Account <strong class="caret"></strong></a>
+					
+					<ul class="dropdown-menu">
+						<li><a href="#"><span class="glyphicon glyphicon-wrench"></span> Settings</a></li>
+						
+						<li><a href="#"><span class="glyphicon glyphicon-refresh"></span> Update Profile</a></li>
+						
+						<li><a href="#"><span class="glyphicon glyphicon-briefcase"></span> Billing</a></li>
+						
+						<li class="divider"></li>
+						
+						<li><a href="#"><span class="glyphicon glyphicon-off"></span> Sign out</a></li>
+					</ul>
+				</li>
+			</ul><!-- end nav pull-right -->
+		</div><!-- end nav-collapse -->
+	
+	</div><!-- end container -->
+</div><!-- end navbar --> 
+
+
+	<!-- navigation bar ends here -->
+
+	<!-- the container begins here -->
+	<div class="container">
+		<div class="row" id="bigCallout">
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		
+		<div class="alert alert-success alert-block fade in" id="successAlert">
+			<button type="button" class="close" data-dismiss="alert">&times;</button>
+			
+			<h4>Are you Sure?!</h4>
+			<p>This is a public portal which is visited by numerous tourism enthusiasts. So, the  corrections you make better be legit!</p>
+		</div><!-- end alert -->
+		
+		<!-- Visible only on small devices -->
+		<div class="well well-small visible-sm">
+			<a href="" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span> Give us a call!</a>
+		</div><!-- end well-small -->
+		
+		<div class="well">
+			<article>
+			<div class="page-header" style="background-color: #080808;">
+			<div class="headwraper">
+				<h1>Into The Roots <small>More about Kerala's history</small></h1>
+				</div>
+			</div><!-- end page-header -->
+			<p class="lead">
+			The history of Kerala, India, dates back many millennia. Stone Age carvings in the Edakkal Caves feature pictorial writings believed to date to at least the Neolithic era around 5,000 BC, indicating the presence of a prehistoric civilisation or settlement in this region.From as early as 3000 BC, Chera nadu, currently known as Kerala had established itself as a major spice trade centre. Keralam, the then Chera nadu had direct contact across the Arabian Sea with all the major Mediterranean and Red Sea ports as well those of the Far East. The spice trade between Kerala and much of the world was one of the main drivers of the world economy. For much of history, ports in Kerala were the busiest (Muziris) among all trade and travel routes in the history of the world.
+			</p>
+			<p class="lead">
+				The word Kerala is first recorded (as Keralaputra) in a 3rd-century BC rock inscription (Rock Edict 2) left by the Maurya emperor Ashoka (274–237 BC).The Land of Keralaputra was one of the five independent kingdoms in southern India during Ashoka's time, the others being Chola, Pandya, Tamiraparani and Satiyaputra.The Cheras collapsed after repeated attacks from the neighboring Chola Empire and Rashtrakuta Empire. In the 8th century, Adi Shankara was born in central Kerala. He travelled extensively across the Indian subcontinent establishing institutions of Advaita Vedanta philosophy.
+			</p>
+			<p class="lead">
+				Contact with Europeans after the arrival of Vasco Da Gama in 1498 gave rise to struggles between colonial and native interests. By 1795, the area was under British dominion. After independence, the state of Keralam was created in 1956 from the former state of Travancore-Cochin, the Malabar district of Madras State, and the Kasaragod taluk of Dakshina Kannada.
+			</p>
+			</article>
+			<a href="" class="btn btn-block btn-danger visible-sm" style="background-color:white; color:red;">Click here to know more..</a>
+			<a href="" class="btn btn-block btn-danger" id="alertMe">Click here to make corrections</a>
+			
+		</div><!-- end well -->
+		
+			</div><!-- end col-12 -->
+			</div><!-- end bigCallout -->
+			<!--here starts the coding of feature section-->
+			<div class="row" id="featuresHeading">
+	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+		<h2 class="db" style="font-family: Amatic SC; color: white;"><strong> Exciting Features:</strong> </h2>
+		<p class="lead">Kerala is full of Surprises! You visit kerala once and you will not wonder why Kerala is always a once-in-a-lifetime tourist destination for all travel lovers. The smell of the greenery and the love of the serenity drenches all your worries away :D
+		 Trust me. Give it a try :) </p>
+	</div><!-- end col-12 -->
+	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+		<h2 class="db " style="font-family: Amatic SC; color: white;"><strong> GOD's OWN COUNTRY:</strong> </h2>
+		<p class="lead">Many of you must be wondering why Kerala is called the GOD's own country. Well, it's very hard to explain you know! Maybe this video can help. Watch it :D </p>
+		 <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tfeWiC23dm4"></iframe>
+  </div>
+	</div><!-- end col-12 -->
+</div><!-- end featuresHeading -->
+
+
+<div class="row" id="features">
+	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 feature">
+		<div class="panel" id="tourismpanel">
+			<div class="panel-heading">
+				<h3 class="panel-title">TOURISM DESTINATIONS:</h3>
+				<form name="myformtwo" method="post" onsubmit="return validateformtwo()">
+				<input type="text" name="nametwo" class="form-control" placeholder="Search for more destinations..." id="searchInput2">
+				<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+			</form>
+			</div><!-- end panel-heading -->
+			
+			<ul>
+				<li><a href="#"><strong>Alappuzha Backwaters</strong></a></li>
+				<li><a href="#"><strong>Periyar National Park</strong></a></li>
+				<li><a href="#"><strong>Bandipur National Park</strong></a></li>
+				<li><a href="#"><strong>Kovalam Beach</strong></a></li>
+				<li><a href="#"><strong>Fort Kochi</strong></a></li>
+				<li><a href="#"><strong>Eravikulam National Park</strong></a></li>
+				<li><a href="#"><strong>Vembanad Lake</strong></a></li>
+				<li><a href="#"><strong>Edakkal Caves</strong></a></li>
+				<li><a href="#"><strong>Mattanchery Palace</strong></a></li>
+				<li><a href="#"><strong>Napier Museum</strong></a></li>
+				<li><a href="#"><strong>Malambuzha Dam</strong></a></li>
+				<li><a href="#"><strong>Pathiramanal</strong></a></li>
+				<li><a href="#"><strong>Devikulam</strong></a></li>
+				<li><a href="#"><strong>Meeshapulimala</strong></a></li>
+				<li><a href="#"><strong>Marari Beach</strong></a></li>
+				<li><a href="#"><strong>Kakkayam Beach</strong></a></li>
+				<li><a href="#"><strong>Dutch Palace</strong></a></li>
+				<li><a href="#"><strong>Patmanabhaswami Temple</strong></a></li>
+
+					</ul>
+		</div><!-- end panel -->
+			<a href="https://www.makemytrip.com/flights?cmp=SEM%7cD%7cDF%7cG%7cBrand%7cB_M_Makemytrip_Search_Exact%7cBrand_Top_5_Exact%7cExpanded%7c162031058804&s_kwcid=AL!1631!3!162031058804!e!!g!!make%2520my%2520trip&ef_id=WacEAgAAAVR430Rf%3A20170906064512%3As" target="_blank" class="btn btn-warning btn-block">Pay a Visit!!</a>
+		
+	</div><!-- end feature -->
+	
+	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 feature">
+		<div class="panel" id="events">
+			<div class="panel-heading">
+				<h3 class="panel-title">Major Events:</h3>
+				<form name="myformthree" method="post" onsubmit="return validateformthree()">
+				<input type="text" name="namethree" class="form-control" placeholder= "Search for more events..." id="searchInput3">
+				<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+			</form>
+			</div><!-- end panel-heading -->
+			
+			<div class="list-group">
+			<a class="list-group-item" href="#">
+			
+				<img src="images/aranmula.jpg" class="thumbnail pull-left" alt="Placeholder image" id="thumbnail1">
+				<h4 class="list-group-item-heading">ARANMULA SNAKE BOAT<small>  Sept 8,2017</small></h4>
+				<p class="list-group-item-text">The Aranmula Boat Race the oldest river boat fiesta in Kerala, the south western State of India is held during Onam (August–September). It takes place at Aranmula, near a Hindu temple dedicated to Lord Krishna and Arjuna.</p>
+				</a>
+				
+			</div>
+			<div class="list-group">
+			<a class="list-group-item" href="#">
+			
+				<img src="images/onam.jpg" class="thumbnail pull-left" alt="Placeholder image" id="thumbnail2">
+				<h4 class="list-group-item-heading">THIRUVONAM<small>  Sept 4,2017</small></h4>
+				<p class="list-group-item-text">Onam is a major annual event for Malayali people in and outside Kerala.The festival commemorates the Mahabali, Vamana (Vishnu avatar), Kashyapa and Parashurama-related mythologies of Hinduism.</p>
+			</a>
+						</div>
+			<div class="list-group">
+			<a class="list-group-item" href="#">
+			
+				<img src="images/Nehru.jpg" class="thumbnail pull-left" alt="Placeholder image" id="thumbnail3">
+				<h4 class="list-group-item-heading">NEHRU TROPHY BOAT RACE<small>  Aug 12,2017</small></h4>
+				<p class="list-group-item-text">The Nehru Trophy Boat Race is a popular Vallam Kali held in the Punnamada Lake near Alappuzha, Kerala.The most popular event of the race is the competition of Chundan Vallams (snake boats).</p>
+			</a>
+			
+			</div>
+			<div class="list-group">
+			<a class="list-group-item" href="#">
+			
+				<img src="images/pooram.jpg" class="thumbnail pull-left" alt="Placeholder image" id="thumbnail4">
+				<h4 class="list-group-item-heading">THRISSUR POORAM<small>  April 26,2017</small></h4>
+				<p class="list-group-item-text">Thrissur Pooram is an annual Hindu temple festival held in Kerala, India. It is held at the Vadakkunnathan Temple in Thrissur every year on the Pooram day - the day when the moon rises with the Pooram star in the Malayalam Calendar month of Medam. It is the largest and most famous of all Poorams.</p>
+			</a>
+			
+			</div>
+			</div><!-- end panel -->
+
+			
+			<a href="https://www.makemytrip.com/flights?cmp=SEM%7cD%7cDF%7cG%7cBrand%7cB_M_Makemytrip_Search_Exact%7cBrand_Top_5_Exact%7cExpanded%7c162031058804&s_kwcid=AL!1631!3!162031058804!e!!g!!make%2520my%2520trip&ef_id=WacEAgAAAVR430Rf%3A20170906064512%3As" target="_blank" class="btn btn-danger btn-block pull-right">Make my Trip</a>
+		
+	</div><!-- end feature -->
+</div><!-- end features -->
+
+
+<!--my tabbable on its way-->
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+
+<div class="tabbable">
+<div class="tabbable-header">
+	<h2>Arts and Feels</h2>
+	</div>
+	<ul class="nav nav-tabs">
+		<li class="active"><a href="#tab1" data-toggle="tab">Arts</a></li>
+		<li><a href="#tab2" data-toggle="tab">Feels</a></li>
+	</ul>
+	<div class="tab-content">
+		<div class="tab-pane active" id="tab1">
+			<ul>
+			<li><a href="#"><strong>Kathakali</strong></a></li> 
+			<li><a href="#"><strong>Theyyam</strong></a></li>
+			<li><a href="#"><strong>Koodiyattam</strong></a></li>
+			<li><a href="#"><strong>Margamkali</strong></a></li>
+			<li><a href="#"><strong>Duffumutt</strong></a></li>
+			
+
+		</ul>
+		</div><!-- end tab-pane -->
+		
+		<div class="tab-pane" id="tab2">
+			<ul>
+			<li><a href="#"><strong>Kulukki Sarbath</strong></a></li>
+			<li><a href="#"><strong>ISL</strong></a></li>
+			<li><a href="#"><strong>Ice Mittayi</strong></a></li>
+			<li><a href="#"><strong>ONAM</strong></a></li>
+
+		</ul>
+			
+			
+			
+		</div><!-- end tab-pane -->
+	</div><!-- end tab-content -->
+</div><!-- end tabbable -->
+
+</div>
+
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+
+	<div class="carousel slide" id="lastCarousel">
+
+	<!-- Indicators -->
+	<ol class="carousel-indicators">
+		<li class="active" data-slide-to="0" data-target="#lastCarousel"></li>
+		<li data-slide-to="1" data-target="#lastCarousel"></li>
+		<li data-slide-to="2" data-target="#lastCarousel"></li>
+		<li data-slide-to="3" data-target="#lastCarousel"></li>
+	</ol>
+
+	<!-- Wrapper for slides -->
+	<div class="carousel-inner">
+		<div class="item active" id="lslide1">
+			<div class="carousel-caption">
+				<h1><strong>#Kathakali</strong></h1>
+				
+
+			</div><!-- end carousel-caption-->
+		</div><!-- end item -->
+		
+		<div class="item" id="lslide2">
+			<div class="carousel-caption">
+				<h1><strong>#Theyyam</strong></h1>
+				
+			</div><!-- end carousel-caption-->
+		</div><!-- end item -->
+		
+		<div class="item" id="lslide3">
+			<div class="carousel-caption">
+				<h1><strong>#Margamkali</strong></h1>
+				
+			</div><!-- end carousel-caption-->
+		</div><!-- end item -->
+
+		<div class="item" id="lslide4">
+			<div class="carousel-caption">
+				<h1><strong>#Duffumuttu</strong></h1>
+				
+			</div><!-- end carousel-caption-->
+		</div><!-- end item -->
+	</div><!-- carousel-inner -->
+	
+	<!-- Controls -->
+	<a class="left carousel-control" data-slide="prev" href="#lastCarousel"><span class="icon-prev"></span></a>
+	<a class="right carousel-control" data-slide="next" href="#lastCarousel"><span class="icon-next"></span></a>
+
+</div><!-- end myCarousel -->  
+	<!-- end of header carousal-->
+
+	
+</div>
+
+	</div> <!-- container ends here -->
+		<!---here comes my footer -->
+	<footer>
+		<h2>
+			Let's get to know eachother @
+		</h2>
+
+		<div class="footlogo">
+		<a href="#">
+			<img class="fb" src="images/fblogo.jpg" alt="fblogo" >
+				</a>
+		<a href="#"><img class="twitter" src="images/twitterlogo.jpg" alt="twitterlogo" ></a>
+		<a href="#"><img class="whatsapp" src="images/whatsapplogo.jpg" alt="whatsapplogo" ></a>
+		
+
+
+		</div>
+	</footer>
+<script type="text/javascript">
+	function validateformone(){  
+var name=document.myformone.nameone.value;      
+if (name==null || name==""){  
+  alert("Query can't be blank");  
+  return false;  
+}
+}
+</script>
+<script type="text/javascript">
+	function validateformtwo(){  
+var name=document.myformtwo.nametwo.value;      
+if (name==null || name==""){  
+  alert("Query can't be blank");  
+  return false;  
+}
+}
+</script>
+<script type="text/javascript">
+	function validateformthree(){  
+var name=document.myformthree.namethree.value;      
+if (name==null || name==""){  
+  alert("Query can't be blank");  
+  return false;  
+}
+}
+</script>
+	<!-- and here ends my footer-->
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+		
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+	
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+	
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+	
+	</body>
+</html>
+
